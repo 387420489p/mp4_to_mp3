@@ -4,15 +4,17 @@ This Python script converts all mp4 files in subdirectories of the current worki
 Made for full albums downloaded from YouTube with JDownloader 2.
 
 ## Requirements
-FBefore using the script, you need to install *FFmpeg*. You can download FFmpeg from their official website: https://ffmpeg.org/
-## Install
-```sh
-pip install -r requirements.txt
-```
+Before using the script, you need to install **FFmpeg**. You can download FFmpeg from their official website: https://ffmpeg.org/
+
 ## Usage
 1. Place the script in the directory containing the subdirectories with the mp4 files you want to convert.
 2. Install FFmpeg if you haven't already.
-3. Run the script using a Python interpreter.
+3. Install requirements.txt with
+```sh
+pip install -r requirements.txt
+```
+4. Run the script using a Python interpreter.
+
 ## Notes
 - The script uses multiprocessing to convert the mp4 files in parallel, with the number of processes set to the number of available CPU cores.
 - The script converts the mp4 files to mp3 with the best quality and overwrites the output file if it already exists.
