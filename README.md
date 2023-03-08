@@ -1,6 +1,7 @@
 ### MP4 to MP3 Converter
 ## Description
 This Python script converts all mp4 files in subdirectories of the current working directory to mp3 files using FFmpeg. It also deletes the original mp4 files and their parent directories once the conversion is complete.
+Made for full albums downloaded from YouTube with JDownloader 2.
 
 ## Requirements
 FBefore using the script, you need to install *FFmpeg*. You can download FFmpeg from their official website: https://ffmpeg.org/
