@@ -3,7 +3,11 @@
 This Python script converts all mp4 files in subdirectories of the current working directory to mp3 files using FFmpeg. It also deletes the original mp4 files and their parent directories once the conversion is complete.
 
 ## Requirements
-FFmpeg (https://ffmpeg.org/)
+FBefore using the script, you need to install *FFmpeg*. You can download FFmpeg from their official website: https://ffmpeg.org/
+## Install
+```sh
+pip install -r requirements.txt
+```
 ## Usage
 1. Place the script in the directory containing the subdirectories with the mp4 files you want to convert.
 2. Install FFmpeg if you haven't already.
