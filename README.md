@@ -9,11 +9,7 @@ Before using the script, you need to install **FFmpeg**. You can download FFmpeg
 ## Usage
 1. Place the script in the directory containing the subdirectories with the mp4 files you want to convert.
 2. Install FFmpeg if you haven't already.
-3. Install requirements.txt with
-```sh
-pip install -r requirements.txt
-```
-4. Run the script using a Python interpreter.
+3. Run the script using a Python interpreter.
 
 ## Notes
 - The script uses multiprocessing to convert the mp4 files in parallel, with the number of processes set to the number of available CPU cores.
